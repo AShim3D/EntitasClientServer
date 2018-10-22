@@ -1,0 +1,3 @@
+[submodule "LiteNetLib"]
+	path = Assets/LiteNetLib
+	url = https://github.com/RevenantX/LiteNetLib.git

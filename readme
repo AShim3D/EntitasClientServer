@@ -1,0 +1,5 @@
+$ git init
+$ git config core.sparsecheckout true
+$ git submodule add --name LiteNetLib https://github.com/RevenantX/LiteNetLib.git  Assets/LiteNetLib
+$ echo LiteNetLib/ > .git/modules/LiteNetLib/info/sparse-checkout
+# $ git config -f .gitmodules submodule.LiteNetLib.shallow bool
